@@ -4,11 +4,11 @@
 from instabot_py import InstaBot
 
 bot = InstaBot(
-    login="username",  # Enter username (lowercase). Do not enter email!
-    password="password",
-    like_per_day=1000,
+   login="reddit_top_memes",
+    password="Cat4plum",
+    like_per_day=1500,
     comments_per_day=0,
-    tag_list=["follow4follow", "f4f", "cute", "l:212999109"],
+    tag_list=['follow4follow', 'f4f', 'cute', 'meme', 'memes' ,'memesdaily', 'dailymemes' ,'funny', 'follow' ,'funnymemes', 'humor', 'smile' ,'relatable', 'meirl', 'me_irl', 'dankmemes' ,'deepfriedmemes', 'happy' ,'instadaily', 'gaming' ,'teenagers' ,'wholesome', 'science' ,'millenials', 'twitter' ,'spongebob' ,'spongebobmemes', 'whitepeople', 'programming' ,'programminghumor'],
     tag_blacklist=["rain", "thunderstorm"],
     user_blacklist={},
     max_like_for_one_tag=50,
